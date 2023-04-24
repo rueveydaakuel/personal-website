@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(196, 180, 158);
+  background-size: cover;
+}
+
+.box {
+  width: 300px;
+  padding: 20px;
+  text-align: center;
+  margin: auto;
+  margin-top: 10px;
+  color: brown;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.box.img {
+  border-radius: 200px;
+  height: 30px;
+}
+
+nav {
+  margin: 0;
+  color: brown;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  display: inline-block;
+  padding-left: 20px 0;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav ul li {
+  display: contents;
+  margin: auto;
+}
+
+nav ul li a {
+  text-align: center;
+  color: rgb(149, 109, 61);
+  font-weight: 100;
+  padding: 6.5px;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: rgb(63, 6, 6);
+}
+
+h1 {
+  color: rgb(123, 24, 24);
+  font-size: 30px;
+  margin-left: 8%;
+  margin-top: 1px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+p {
+  margin: 0px;
+}
+
+h2 {
+  color: rgb(69, 17, 17);
+  padding: 30px;
+}
